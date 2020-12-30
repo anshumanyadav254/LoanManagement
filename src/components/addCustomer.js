@@ -38,6 +38,7 @@ class addCustomer extends Component {
             expiryDate:expiryDate,
             emi:emi
         }
+        //eslint-disable-next-line
         let regEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         if(!regEmail.test(email)){
             alert("Invalid Email, please Enter Correct Email")
