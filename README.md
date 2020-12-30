@@ -1,7 +1,7 @@
 # Step for Run this repo
 
 # 1.run command on terminal @ npm install
-# 2.then write on command line @ npm run dev to run this project
+# 2.then write on command line to run this project @ npm run dev
 
 # specification :
 1. this assignment is for loan management system .
